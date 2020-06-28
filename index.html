@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Calculadora Javascript</title>
+		<script type="text/javascript"  src="./js/calculadora.js" charset="UTF-8"></script>
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1> Calculadora Javascript</h1>
+		</header>
+		<main id="container">
+			<section id="calculator">	
+				<input type=text id="pantalla" disabled/>
+				<input type=button value="1" onclick="addScreen(value);" />
+				<input type=button value="2" onclick="addScreen(value);" />
+				<input type=button value="3" onclick="addScreen(value);" />
+				<input type=button value="+" onclick="addScreen(value);" />
+				<input type=button value="4" onclick="addScreen(value);" />
+				<input type=button value="5" onclick="addScreen(value);" />
+				<input type=button value="6" onclick="addScreen(value);" />
+				<input type=button value="-" onclick="addScreen(value);" />
+				<input type=button value="7" onclick="addScreen(value);" />
+				<input type=button value="8" onclick="addScreen(value);" />
+				<input type=button value="9" onclick="addScreen(value);" />
+				<input type=button value="*" onclick="addScreen(value);" />
+				<input type=button value="0" onclick="addScreen(value);" />
+				<input type=button value="C" onclick="deleteScreen();" />
+				<input type=button value="=" onclick="readScreen();" />
+				<input type=button value="/" onclick="addScreen(value);" />
+			</section>	
+		</main>
+		<footer>
+			<p>By Sergio Cabedo Bel</p>
+		</footer>	
+	
+	</body>
+</html>
